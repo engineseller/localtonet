@@ -21,7 +21,7 @@ fi
 
 if [ ! -e localtonet.service ]; then
     git clone --depth=1 https://github.com/engineseller/localtonet.git
-    cd systemd-localtonet
+    cd localtonet
 fi
 
 cp localtonet.service /lib/systemd/system/
